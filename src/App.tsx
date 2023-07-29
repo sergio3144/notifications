@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { Prueba } from './components/prueba'
+import { BotonTodoDelete } from './components/button-delete'
+import { PrincipalAplication } from './principal-component'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Prueba/>
+      <PrincipalAplication/>
+      <BotonTodoDelete/>
     </>
   )
 }
