@@ -1,0 +1,10 @@
+.main {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: white;
+  margin-top: 50px;
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
