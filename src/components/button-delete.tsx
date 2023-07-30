@@ -2,7 +2,7 @@
 
 const BotonTodoDelete = ():JSX.Element => {
   return (
-    <button>Marcar todos como leídos</button>
+    <button className="text-sm font-700">Marcar todos como leídos</button>
   )
 }
 
