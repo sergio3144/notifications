@@ -11,8 +11,8 @@ export const PrincipalAplication = () => {
           <Notifications/>
           <BotonTodoDelete/>
         </header>
+        <NotificationsList/>
       </div>
-      <NotificationsList/>
     </>
   )
 }
