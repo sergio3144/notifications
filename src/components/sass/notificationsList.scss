@@ -6,6 +6,9 @@
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
+    .f {
+      background-color: red;
+    }
     &__flex {
       display: flex;
       justify-content: start;
