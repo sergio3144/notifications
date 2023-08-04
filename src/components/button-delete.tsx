@@ -1,7 +1,7 @@
 import {MouseEventHandler} from "react";
 
 type Prop = {
-  resetNotifications: MouseEventHandler<HTMLButtonElement> 
+  resetNotifications: MouseEventHandler<HTMLButtonElement>
 }
 
 const BotonTodoDelete = ({ resetNotifications }:Prop):JSX.Element => {
