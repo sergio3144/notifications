@@ -3,7 +3,7 @@ import { BotonTodoDelete } from "./button-delete";
 import { persons } from "./persons"
 import './sass/notificationsList.scss'
 import { GoDotFill } from 'react-icons/go'
-import { EventHandler, MouseEventHandler, useState } from "react";
+import { MouseEventHandler, useState } from "react";
 
 const NotificationsList = ():JSX.Element => {
 
@@ -16,8 +16,8 @@ const NotificationsList = ():JSX.Element => {
       prevSelected.includes(id) ? prevSelected.filter((personId) => personId !== id) : [...prevSelected, id]
     )
     setNotificationLength(notificationLength - 1)
-    if(notificationLength < 1) {
-      alert('No hay notificaciones')
+    if(notificationLength === 0) {
+      alert('Todas las notifiaciones leídas')
       window.location.reload()
       setNotificationLength(0)
     } else if (selectedPersons.includes(id)) {
