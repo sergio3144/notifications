@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+Aplication in deply 
+
+https://notifications-f926.vercel.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
