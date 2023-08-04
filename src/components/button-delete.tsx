@@ -1,8 +1,12 @@
-// import React from "react";
+import {MouseEventHandler} from "react";
 
-const BotonTodoDelete = ():JSX.Element => {
+type Prop = {
+  resetNotifications: MouseEventHandler<HTMLButtonElement> 
+}
+
+const BotonTodoDelete = ({ resetNotifications }:Prop):JSX.Element => {
   return (
-    <button className="text-sm font-700">Marcar todos como leídos</button>
+    <button className="text-sm font-700" onClick={resetNotifications}>Marcar todos como leídos</button>
   )
 }
 
